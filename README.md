@@ -6,11 +6,19 @@
 
 <br>
 
-<img src="https://skillicons.dev/icons?i=python,opencv,tensorflow,sklearn,numpy,pandas" />
+![Python](https://img.shields.io/badge/PYTHON-0A0A0A?style=for-the-badge\&logo=python\&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OPENCV-0A0A0A?style=for-the-badge\&logo=opencv\&logoColor=white)
+![Keras](https://img.shields.io/badge/KERAS-0A0A0A?style=for-the-badge\&logo=keras\&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MEDIAPIPE-0A0A0A?style=for-the-badge\&logo=google\&logoColor=white)
+![NumPy](https://img.shields.io/badge/NUMPY-0A0A0A?style=for-the-badge\&logo=numpy\&logoColor=white)
+![Pandas](https://img.shields.io/badge/PANDAS-0A0A0A?style=for-the-badge\&logo=pandas\&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/SCIKIT--LEARN-0A0A0A?style=for-the-badge\&logo=scikit-learn\&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/MATPLOTLIB-0A0A0A?style=for-the-badge\&logo=matplotlib\&logoColor=white)
 
-<br><br>
-
-<img src="https://skillicons.dev/icons?i=pycharm,vscode,github" />
+![PyInstaller](https://img.shields.io/badge/PYINSTALLER-0A0A0A?style=for-the-badge\&logo=python\&logoColor=white)
+![Linux](https://img.shields.io/badge/LINUX-0A0A0A?style=for-the-badge\&logo=linux\&logoColor=white)
+![Git](https://img.shields.io/badge/GIT-0A0A0A?style=for-the-badge\&logo=git\&logoColor=white)
+![GitHub](https://img.shields.io/badge/GITHUB-0A0A0A?style=for-the-badge\&logo=github\&logoColor=white)
 
 </div>
 
@@ -26,36 +34,41 @@ A aplicação possui uma interface gráfica desenvolvida com **PySimpleGUI** e t
 
 ## Tecnologias
 
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,opencv,tensorflow,sklearn,numpy,pandas,matplotlib" />
-
-</div>
-
 ### Computer Vision
 
-* **OpenCV** — Processamento e análise de imagens
-* **MediaPipe** — Detecção e mapeamento de landmarks faciais
-* **DepthAI** — Integração com câmeras OAK-D
-* **OpenVINO** — Inferência de modelos de visão computacional
-* **blobconverter** — Conversão e preparação de modelos para dispositivos compatíveis
+![Python](https://img.shields.io/badge/PYTHON-0A0A0A?style=for-the-badge\&logo=python\&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OPENCV-0A0A0A?style=for-the-badge\&logo=opencv\&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MEDIAPIPE-0A0A0A?style=for-the-badge\&logo=google\&logoColor=white)
 
-### Machine Learning
+* **OpenCV** — Processamento e análise de imagens.
+* **MediaPipe** — Detecção e mapeamento de landmarks faciais.
+* **DepthAI** — Integração com câmeras OAK-D.
+* **OpenVINO** — Inferência de modelos de visão computacional.
+* **blobconverter** — Conversão e preparação de modelos para dispositivos compatíveis.
 
-* **Keras** — Construção e execução de modelos de Deep Learning
-* **Scikit-learn** — Processamento e análise de dados
-* **FER** — Facial Expression Recognition
+### Machine Learning e Deep Learning
+
+![Keras](https://img.shields.io/badge/KERAS-0A0A0A?style=for-the-badge\&logo=keras\&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/SCIKIT--LEARN-0A0A0A?style=for-the-badge\&logo=scikit-learn\&logoColor=white)
+
+* **Keras** — Construção e execução de modelos de Deep Learning.
+* **Scikit-learn** — Processamento e análise de dados.
+* **FER** — Facial Expression Recognition.
 
 ### Dados e processamento
 
-* **NumPy** — Computação numérica e operações vetoriais
-* **Pandas** — Manipulação e análise de dados
-* **Matplotlib** — Visualização de dados
+![NumPy](https://img.shields.io/badge/NUMPY-0A0A0A?style=for-the-badge\&logo=numpy\&logoColor=white)
+![Pandas](https://img.shields.io/badge/PANDAS-0A0A0A?style=for-the-badge\&logo=pandas\&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/MATPLOTLIB-0A0A0A?style=for-the-badge\&logo=matplotlib\&logoColor=white)
+
+* **NumPy** — Computação numérica e operações vetoriais.
+* **Pandas** — Manipulação e análise de dados.
+* **Matplotlib** — Visualização de dados.
 
 ### Interface e distribuição
 
-* **PySimpleGUI** — Interface gráfica
-* **PyInstaller** — Empacotamento da aplicação em executável standalone
+* **PySimpleGUI** — Interface gráfica.
+* **PyInstaller** — Empacotamento da aplicação em executável standalone.
 
 ## Funcionalidades
 
@@ -152,8 +165,8 @@ A aplicação pode ser empacotada utilizando **PyInstaller**, permitindo executa
                  └─────────────┬─────────────┘
                                ▼
                     ┌─────────────────────┐
-                    │     GUI / Output     │
-                    │     PySimpleGUI      │
+                    │     GUI / Output    │
+                    │     PySimpleGUI     │
                     └─────────────────────┘
 ```
 
@@ -218,8 +231,6 @@ pip install -r requirements.txt
 
 ### Execute a aplicação
 
-Após configurar as dependências e conectar a câmera OAK-D, execute o script principal:
-
 ```bash
 python FacialExpressionAnalysis.py
 ```
@@ -249,18 +260,6 @@ pyinstaller FacialSymmetryAnalysis.spec
 Antes do processo de build, certifique-se de que todos os caminhos utilizados no código e no arquivo `.spec` estejam configurados de acordo com o ambiente atual.
 
 Evite utilizar caminhos absolutos específicos de uma máquina.
-
-Exemplo:
-
-```text
-D:\Desktop\Projeto\Modelos\model.xml
-```
-
-Prefira caminhos relativos ou configuráveis:
-
-```text
-models/model.xml
-```
 
 ## Configuração
 
@@ -330,17 +329,17 @@ Exemplos:
 
 ## Roadmap
 
-* [ ] Melhorar o gerenciamento de diretórios e arquivos de modelos
-* [ ] Remover caminhos absolutos do código-fonte
-* [ ] Adicionar suporte para webcams convencionais
-* [ ] Implementar testes automatizados
-* [ ] Melhorar a análise geométrica facial
-* [ ] Implementar métricas detalhadas de simetria
-* [ ] Adicionar armazenamento histórico das análises
-* [ ] Criar dashboard para visualização dos resultados
-* [ ] Melhorar o processamento em tempo real
-* [ ] Otimizar inferência para diferentes hardwares
-* [ ] Implementar configuração dinâmica dos modelos
+* [ ] Melhorar o gerenciamento de diretórios e arquivos de modelos.
+* [ ] Remover caminhos absolutos do código-fonte.
+* [ ] Adicionar suporte para webcams convencionais.
+* [ ] Implementar testes automatizados.
+* [ ] Melhorar a análise geométrica facial.
+* [ ] Implementar métricas detalhadas de simetria.
+* [ ] Adicionar armazenamento histórico das análises.
+* [ ] Criar dashboard para visualização dos resultados.
+* [ ] Melhorar o processamento em tempo real.
+* [ ] Otimizar inferência para diferentes hardwares.
+* [ ] Implementar configuração dinâmica dos modelos.
 
 ## Desenvolvimento
 
